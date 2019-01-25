@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Manos a la obra"
-date:   2019-01-11
-fecha:  "11 de Enero de 2019"
+date:   2019-01-03
+fecha:  "3 de Enero de 2019"
 excerpt: "Pide presupuesto y empieza tu obra, véa algunas de nuestras últimas reformas."
 image: "/images/pic02.jpg"
 ---

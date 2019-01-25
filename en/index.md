@@ -3,7 +3,7 @@ layout: index
 language: en
 sitemap:
   priority: 1.0
-  lastmod: 2019-14-01
+  lastmod: 2019-01-17
   changefreq: weekly
 
 subtitle:

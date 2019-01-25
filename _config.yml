@@ -81,8 +81,8 @@ location:           Barcelona y alrededores
 phone:              666633272
 email:              newhomereformasbcn@gmail.com
 
-# Gems
-gems:
+# Gems/Plugins
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
