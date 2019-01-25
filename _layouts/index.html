@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+    {% include head.html %}
+	</head>
+
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+            <!-- DONE Dejar el título abajo y buscar silueta de casas que quede justo encima como el logo -->
+            <img src="{{ "/images/roof.png" | absolute_url }}" alt="" class="width: 55%;"/>
+            <h1>{{ site.title }}</h1>
+						<h2>{{ page.subtitle[page.language] }}</h2>
+						<p>{{ page.sketch[page.language] }}</p>
+						<ul class="actions">
+							<li><a href="#header"><!--button icon solo fa-arrow-down scrolly--></a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="{{ "/" | absolute_url }}" class="logo">{{ site.title }}</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+            {% include nav.html %}
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>{{ page.highlight[page.language] }}</h2>  <!-- DONE Bajar el tamaño de la letra y el espacio entre el menú -->
+									<p><a href="#footer">{{ page.motto[page.language] }}</a></p> <!-- DONE Enlace al formulario de contacto -->
+								</header>
+
+                <p>ACERCA - {{ page.about[page.language] }}</p>
+								<br/>
+
+								<!-- <div style="width:80%; height:80%; margin:0 auto;"> -->
+								<div>
+									<ul id="slider-home">
+									  <li title="This is caption 1">
+									    <img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="demo1_1">
+									  </li>
+									  <li title="This is caption 2">
+									    <img src="{{ "/images/pic02.jpg" | absolute_url }}"  alt="demo1_2">
+									  </li>
+									</ul>
+								</div>
+
+								<br/>
+								<h3 id="servicios"><br/>SERVICIOS</h3>
+                <p>{{ page.services[page.language] }}</p>
+
+								<div class="row">
+									<div class="6u 12u$(small)">
+										<ul style="list-style-type: none;">
+											<li>Pisos</li>
+											<li>Casas</li>
+											<li>Terrenos</li>
+											<li>Cualquiera</li>
+										</ul>
+									</div>
+
+									<div class="6u 12u$(small)">
+										<ul style="list-style-type: none;">
+											<li>Locales</li>
+											<li>Almacenes</li>
+											<li>Oficinas</li>
+											<li>Terrazas</li>
+										</ul>
+									</div>
+								</div>
+
+								<h3 id="provedores"><br/>PROVEDORES</h3>
+                <p>{{ page.provedores[page.language] }}</p>
+								<table>
+								  <tr>
+								    <td>Porcelanosa</td>
+										<td></td>
+								    <td>img</td>
+								  </tr>
+								  <tr>
+								    <td>Mármol güeno</td>
+										<td></td>
+								    <td>img</td>
+								  </tr>
+								  <tr>
+								    <td>Aislante güeno</td>
+										<td></td>
+								    <td>img</td>
+								  </tr>
+								</table>
+
+							</article>
+
+						<!-- Posts -->
+							<section id="blog" class="posts">
+                {% for post in site.posts limit:3 %}
+                {% assign mod3 = forloop.index | modulo: 3 %}
+  								<article>
+  									<header>
+  										<span class="date">{{ post.fecha }}</span>
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Ver más</a></li>
+  									</ul>
+  								</article>
+                  {% if mod3 == 0 %}
+                  <article>
+  									<header>
+  										<h2><a href="#">Sponsored</a></h2>
+  									</header>
+
+  								</article>
+                  {% endif %}
+                {% endfor %}
+							</section>
+
+						<!-- Footer -->
+							<footer>
+                <ul class="actions">
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">{{ site.blog[page.language] }}</a></li>
+                </ul>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+    {% include tracking.html %}
+
+	</body>
+</html>

@@ -1,0 +1,99 @@
+# Site
+title:                    New Home Reformas
+bio:                      Empresa de reformas
+description:
+  es: Reformas en el área metropolitana de Barcelona
+  ca: Reformes a l'àrea metropolitana de Barcelona
+  en: House rehabilitation in the metropolitan area of ​​Barcelona
+locale:                   es_ES
+baseurl:                  "" # the subpath of your site, e.g. /blog
+url:                      "" # the base hostname & protocol for your site
+link:                     "http://localhost:4000/"
+background_image:         /images/bg.jpg
+
+header1:
+  es: ¿Empezamos?
+  ca: Comencem?
+  en: Ready?
+header2:
+  es: Servicios
+  ca: Serveis
+  en: Services
+header3:
+  es: Proveedores
+  ca: Proveïdors
+  en: Suppliers
+header4:
+  es: Blog
+  ca: Blog
+  en: Blog
+header5:
+  es: Contacto
+  ca: Contacte
+  en: Contact
+
+blog:
+  es: Nuestro blog
+  ca: El nostre blog
+  en: Out blog
+
+# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
+formspree_thankyou_page:  /thank-you
+
+# Polyglot
+permalink: pretty
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    author:
+
+# Jekyll
+# permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+disqus_shortname:   default
+
+# Social
+analytics-id:       "default"
+twitter:            default
+facebook:           default
+instagram:          default
+
+# personal
+location:           Barcelona y alrededores
+phone:              666633272
+email:              newhomereformasbcn@gmail.com
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, Rakefile, old]

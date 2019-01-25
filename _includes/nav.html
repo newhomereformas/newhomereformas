@@ -1,0 +1,34 @@
+<ul class="links">
+  <!-- <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">̣{{ site.header1[page.language] }}</a></li> -->
+
+  <li class="active"><a>̣{{ site.header1[page.language] }}</a></li>
+  <li><a href="#servicios">{{ site.header2[page.language] }}</a></li>
+  <li><a href="#provedores">{{ site.header3[page.language] }}</a></li>
+  <li><a href="#blog">{{ site.header4[page.language] }}</a></li>
+  <li><a href="#footer">{{ site.header5[page.language] }}</a></li>
+</ul>
+
+<!-- <ul class="icons">
+  <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+  <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+  <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+</ul> -->
+
+<!-- Idiomas -->
+<ul style="list-style-type: none;">
+  <li style="float:right;">
+      <a href="{{ site.link | append: "en" }}" style="border-bottom:none; {% if page.language contains 'en' %} border: grey solid 11px; background-color: grey; {% endif %}">
+          <img src="{{ site.baseurl }}/images/english_flag.png" alt="English flag" width="32" height="20" style="vertical-align: middle;">
+      </a>
+  </li>
+  <li style="float:right;">
+      <a href="{{ site.link }}" style="border-bottom:none; margin-right:10px; {% if page.language contains 'es' %} border: grey solid 10px; background-color: grey; {% endif %}">
+          <img src="{{ site.baseurl }}/images/spanish_flag.png" alt="Spanish flag" width="32" height="20" style="vertical-align: middle;">
+      </a>
+  </li>
+  <li style="float:right;">
+      <a href="{{ site.link | append: "ca" }}" style="border-bottom:none; margin-right:10px; {% if page.language contains 'ca' %} border: grey solid 10px; background-color: grey; {% endif %}">
+          <img src="{{ site.baseurl }}/images/catalan_flag.png" alt="Catalan flag" width="32" height="20" style="vertical-align: middle;">
+      </a>
+  </li>
+</ul>
