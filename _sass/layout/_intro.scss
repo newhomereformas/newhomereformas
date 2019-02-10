@@ -85,8 +85,12 @@
 
 			img {
 				padding-bottom: 50px;
-				width: 50%;
-				height: 17%;
+				width: 74%;
+				height: 25%;
+			}
+
+			h1 {
+				font-size: 3.6rem;
 			}
 
 			p {
@@ -111,8 +115,15 @@
 			}
 
 			h1 {
-				font-size: 3.25rem;
+				font-size: 1.75rem;
 				line-height: 1.1;
+				min-height: 12vh;
+				margin-bottom: _size(element-margin) * 0.5;
+			}
+
+			h2 {
+				font-size: 1.5rem;
+				text-transform: none;
 				margin-bottom: _size(element-margin) * 0.5;
 			}
 

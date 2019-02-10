@@ -1,10 +1,18 @@
 ---
-layout: post
-title:  "Luces led"
-date:   2019-01-11
-fecha:  "11 de Enero del 2019"
-excerpt: "Pide tu presupuesto led."
-image: "/images/pic02.jpg"
+layout:   post
+language: ca
+title:    "Mobles reciclats"
+date:     2019-02-02
+fecha:    "2 de febrer del 2019"
+
+fecha:
+  ca: "2 de febrer del 2019"
+
+title:
+  ca: "Mobles reciclats"
+
+subtitle:
+  ca: "Salvem el planeta!"
 ---
 
 ## How to Use This Theme

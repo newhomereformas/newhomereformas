@@ -1,18 +1,23 @@
 <ul class="links">
   <!-- <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">̣{{ site.header1[page.language] }}</a></li> -->
 
-  <li class="active"><a>̣{{ site.header1[page.language] }}</a></li>
-  <li><a href="#servicios">{{ site.header2[page.language] }}</a></li>
-  <li><a href="#provedores">{{ site.header3[page.language] }}</a></li>
-  <li><a href="#blog">{{ site.header4[page.language] }}</a></li>
-  <li><a href="#footer">{{ site.header5[page.language] }}</a></li>
+  {% if page.layout == "post" %}
+    <li class="active">
+      <a href="{{ "/" | absolute_url }}">
+        <img src="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}" alt="" style="vertical-align: middle;"/>
+      </a>
+    </li>
+    <li>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="text-transform:none;">Blog</span></p>
+    </li>
+  {% else %}
+    <li class="active"><a>{{ site.header1[page.language] }}</a></li>
+    <li><a href="#servicios">{{ site.header2[page.language] }}</a></li>
+    <li><a href="#provedores">{{ site.header3[page.language] }}</a></li>
+    <li><a href="#blog">{{ site.header4[page.language] }}</a></li>
+    <li><a href="#footer">{{ site.header5[page.language] }}</a></li>
+  {% endif %}
 </ul>
-
-<!-- <ul class="icons">
-  <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-  <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-  <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
-</ul> -->
 
 <!-- Idiomas -->
 <ul style="list-style-type: none;">

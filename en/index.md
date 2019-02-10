@@ -7,18 +7,61 @@ sitemap:
   changefreq: weekly
 
 subtitle:
-  ca: Your reforming enterpise in Barcelona
+  en: Your refurbishing company in Barcelona
 
 sketch:
-  ca: Tenim anys d'experiencia en el sector de l'interiorisme i les instal·lacions
+  en: We have years of experience in interior design and installations
 
 highlight:
-  es: Reformes a Barcelona
+  en: Refurbishing in Barcelona
 
 motto:
-  es: Fem reformes completament adaptades a les teves necesitats<br/>¡Demana ara el teu presupost!
+  en: We make integral reforms tailored to your needs.<br style="display:block !important;"/>Ask for your budget now!
 
 about:
-  es: Sobre... Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  en: We are a refurbishing company located in the city of Barcelona with more than 30 years of experience in the construction sector. Throughout this time we have <strong>renewed all types of spaces in the metropolitan area of Barcelona</strong>, from small reparations to the complete remodeling of large surfaces.<br/><br/>The evolution of constructions has stablished our way of working and our values; [...]. New Home Reformas offers the possibility of conditioning spaces of different kinds depending on the need of the customers.
+
+espacio1:
+  en: <strong style="font-size:1.1rem;">Real property</strong>
+espacio2:
+  en: Flats
+espacio3:
+  en: Houses
+espacio4:
+  en: Gardens
+espacio5:
+  en: <strong style="font-size:1.1rem;">Business premises</strong>
+espacio6:
+  en: Shops
+espacio7:
+  en: Offices
+espacio8:
+  en: Warehouses
+espacio9:
+  en: <strong style="font-size:1.1rem;">Surfaces</strong>
+espacio10:
+  en: Lands
+espacio11:
+  en: Solars
+espacio12:
+  en: Farms
+
+
+title_services:
+  en: Services
+services:
+  en: Ofrecemos un extenso abánico de servicios a nuestros clientes [...]
+
+service1:
+  en:
+
+
+title_suppliers:
+  en: Suppliers
+suppliers:
+  en: Trabajamos con los siguientes provedores para que nuestros clientes disfruten de la <strong>máxima calidad de los materiales en las reformas</strong>.
+
+supplier1:
+  en:
 
 ---

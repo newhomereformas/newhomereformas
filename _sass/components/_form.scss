@@ -35,7 +35,7 @@
 			@include vendor('flex-grow', '0');
 			@include vendor('flex-shrink', '1');
 			margin: ($gutter * 1.25) 0 0 $gutter !important;
-			width: calc(100% - #{$gutter * 2});
+			width: calc(100% - #{$gutter * 1.5});
 		}
 
 		&.alt {

@@ -9,143 +9,185 @@
 	<body class="is-loading">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper" class="fade-in">
 
 				<!-- Intro -->
-					<div id="intro">
-            <!-- DONE Dejar el título abajo y buscar silueta de casas que quede justo encima como el logo -->
-            <img src="{{ "/images/roof.png" | absolute_url }}" alt="" class="width: 55%;"/>
-            <h1>{{ site.title }}</h1>
-						<h2>{{ page.subtitle[page.language] }}</h2>
-						<p>{{ page.sketch[page.language] }}</p>
-						<ul class="actions">
-							<li><a href="#header"><!--button icon solo fa-arrow-down scrolly--></a></li>
-						</ul>
-					</div>
+				<div id="intro">
+          <img src="{{ "/images/roof_mod.png" | absolute_url }}" alt="" class="width: 55%;"/>
+          <h1>{{ site.title }}</h1>
+					<h2>{{ page.subtitle[page.language] }}</h2>
+					<p>{{ page.sketch[page.language] }}</p>
+					<ul class="actions">
+						<li>
+							<a href="#header"></a>
+						</li>
+					</ul>
+				</div>
 
 				<!-- Header -->
-					<header id="header">
+				<header id="header">
+					{% if page.language contains 'ca' %}
+						<a href="{{ "/" | absolute_url | append: "ca" }}" class="logo">{{ site.title }}</a>
+					{% elsif page.language contains 'en' %}
+						<a href="{{ "/" | absolute_url | append: "en" }}" class="logo">{{ site.title }}</a>
+					{% else %}
 						<a href="{{ "/" | absolute_url }}" class="logo">{{ site.title }}</a>
-					</header>
+					{% endif %}
+				</header>
 
 				<!-- Nav -->
-					<nav id="nav">
-            {% include nav.html %}
-					</nav>
+				<nav id="nav">
+          {% include nav.html %}
+				</nav>
 
 				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>{{ page.highlight[page.language] }}</h2>  <!-- DONE Bajar el tamaño de la letra y el espacio entre el menú -->
-									<p><a href="#footer">{{ page.motto[page.language] }}</a></p> <!-- DONE Enlace al formulario de contacto -->
+				<div id="main">
+					<!-- Featured -->
+					<article class="post featured">
+						<header class="major">
+							<h2>{{ page.highlight[page.language] }}</h2>
+							<p><a href="#footer">{{ page.motto[page.language] }}</a></p>
+						</header>
+
+            <p>{{ page.about[page.language] }}</p>
+
+						<!-- Spaces -->
+						<div class="row">
+							<div class="4u 12u$(small)" style="padding-right:1.5rem;">
+								<ul style="list-style-type: none;">
+									<li>{{ page.espacio1[page.language] }}</li>
+									<li>{{ page.espacio2[page.language] }}</li>
+									<li>{{ page.espacio3[page.language] }}</li>
+									<li>{{ page.espacio4[page.language] }}</li>
+								</ul>
+							</div>
+
+							<div class="4u 12u$(small)" style="padding-right:1.5rem;">
+								<ul style="list-style-type: none;">
+									<li>{{ page.espacio5[page.language] }}</li>
+									<li>{{ page.espacio6[page.language] }}</li>
+									<li>{{ page.espacio7[page.language] }}</li>
+									<li>{{ page.espacio8[page.language] }}</li>
+								</ul>
+							</div>
+
+							<div class="4u 12u$(small)" style="padding-right:1.5rem;">
+								<ul style="list-style-type: none;">
+									<li>{{ page.espacio9[page.language] }}</li>
+									<li>{{ page.espacio10[page.language] }}</li>
+									<li>{{ page.espacio11[page.language] }}</li>
+									<li>{{ page.espacio12[page.language] }}</li>
+								</ul>
+							</div>
+						</div>
+
+						<br/>
+
+						<!-- Slider -->
+						<div style="width:85%; height:85%; margin:0 auto;">
+							<ul id="slider-home">
+							  <li title="Cocina blanco y negro">
+							    <img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="demo1_1">
+							  </li>
+							  <li title="Cocina a color">
+							    <img src="{{ "/images/pic02.jpg" | absolute_url }}"  alt="demo1_2">
+							  </li>
+							</ul>
+						</div>
+
+						<br/>
+
+						<!-- Services-->
+						<h3 id="servicios"><br/>{{ page.title_services[page.language] }}</h3>
+            <p>{{ page.services[page.language] }}</p>
+						<div class="row" style="text-align:left;">
+							<div class="4u 12u$(small)">
+								<ul>
+									<li>{{ page.service1[page.language] }}</li>
+									<li>{{ page.service2[page.language] }}</li>
+									<li>{{ page.service3[page.language] }}</li>
+									<li>{{ page.service4[page.language] }}</li>
+								</ul>
+							</div>
+
+							<div class="4u 12u$(small)">
+								<ul>
+									<li>{{ page.service5[page.language] }}</li>
+									<li>{{ page.service6[page.language] }}</li>
+									<li>{{ page.service7[page.language] }}</li>
+									<li>{{ page.service8[page.language] }}</li>
+								</ul>
+							</div>
+
+							<div class="4u 12u$(small)">
+								<ul>
+									<li>{{ page.service5[page.language] }}</li>
+									<li>{{ page.service6[page.language] }}</li>
+									<li>{{ page.service7[page.language] }}</li>
+									<li>{{ page.service8[page.language] }}</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Suppliers -->
+						<h3 id="provedores"><br/>{{ page.title_suppliers[page.language] }}</h3>
+            <p>{{ page.suppliers[page.language] }}</p>
+						<table>
+						  <tr>
+						    <td>Porcelanosa</td>
+								<td></td>
+						    <td>img</td>
+						  </tr>
+						  <tr>
+						    <td>Mármol güeno</td>
+								<td></td>
+						    <td>img</td>
+						  </tr>
+						  <tr>
+						    <td>Aislante güeno</td>
+								<td></td>
+						    <td>img</td>
+						  </tr>
+						</table>
+
+					</article>
+
+					<!-- Posts -->
+					<section id="blog" class="posts">
+
+						{% for post in site.posts limit:2 %}
+							{% if page.language contains 'ca' %}
+								{% assign link = site.link | append: "ca/" | append: post.name[page.language] %}
+							{% elsif page.language contains 'en' %}
+								{% assign link = site.link | append: "en/" | append: post.name[page.language] %}
+							{% else %}
+								{% assign link = post.url | absolute_url %}
+							{% endif %}
+							<article>
+								<header>
+									<span class="date">{{ post.fecha[page.language] }}</span>
+									<h2><a href="{{ link }}">{{ post.title[page.language] }}</a></h2>
 								</header>
-
-                <p>ACERCA - {{ page.about[page.language] }}</p>
-								<br/>
-
-								<!-- <div style="width:80%; height:80%; margin:0 auto;"> -->
-								<div>
-									<ul id="slider-home">
-									  <li title="This is caption 1">
-									    <img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="demo1_1">
-									  </li>
-									  <li title="This is caption 2">
-									    <img src="{{ "/images/pic02.jpg" | absolute_url }}"  alt="demo1_2">
-									  </li>
-									</ul>
-								</div>
-
-								<br/>
-								<h3 id="servicios"><br/>SERVICIOS</h3>
-                <p>{{ page.services[page.language] }}</p>
-
-								<div class="row">
-									<div class="6u 12u$(small)">
-										<ul style="list-style-type: none;">
-											<li>Pisos</li>
-											<li>Casas</li>
-											<li>Terrenos</li>
-											<li>Cualquiera</li>
-										</ul>
-									</div>
-
-									<div class="6u 12u$(small)">
-										<ul style="list-style-type: none;">
-											<li>Locales</li>
-											<li>Almacenes</li>
-											<li>Oficinas</li>
-											<li>Terrazas</li>
-										</ul>
-									</div>
-								</div>
-
-								<h3 id="provedores"><br/>PROVEDORES</h3>
-                <p>{{ page.provedores[page.language] }}</p>
-								<table>
-								  <tr>
-								    <td>Porcelanosa</td>
-										<td></td>
-								    <td>img</td>
-								  </tr>
-								  <tr>
-								    <td>Mármol güeno</td>
-										<td></td>
-								    <td>img</td>
-								  </tr>
-								  <tr>
-								    <td>Aislante güeno</td>
-										<td></td>
-								    <td>img</td>
-								  </tr>
-								</table>
-
+								<a href="{{ link }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+								<p style="text-align:center;"><strong>{{ post.subtitle[page.language] }}</strong></p>
+								<ul class="actions">
+									<li><a href="{{ link }}" class="button">{{ site.view[page.language] }}</a></li>
+								</ul>
 							</article>
+						{% endfor %}
 
-						<!-- Posts -->
-							<section id="blog" class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.fecha }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Ver más</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
-
-  								</article>
-                  {% endif %}
-                {% endfor %}
-							</section>
-
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">{{ site.blog[page.language] }}</a></li>
-                </ul>
-							</footer>
-
-					</div>
+					</section>
+				</div>
 
 				<!-- Footer -->
         {% include foot.html %}
 
-			</div>
+		</div>
 
 		<!-- Scripts -->
 		{% include scripts-main.html %}
     {% include tracking.html %}
 
 	</body>
+
 </html>

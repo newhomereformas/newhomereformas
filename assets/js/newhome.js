@@ -1,7 +1,7 @@
 
 // Transition to any anchor smoothly
 $(function() {
-  $('a[href^=#]').click(function() {
+  $('a[href^=#]:not([href=#navPanel])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -31,4 +31,16 @@ jQuery('#slider-home').slippry({
   transition: 'kenburns', // fade, horizontal, kenburns, false
   kenZoom: 100,
   speed: 2500 // time the transition takes (ms)
+});
+
+jQuery('#out-of-the-box-demo').slippry();
+
+// Privacy policy toggle
+$("#pp").click( function(){
+  if ( $("#conditions").css('display') == 'none' ) {
+    $("#conditions").show();
+  }
+  else {
+    $("#conditions").hide();
+  }
 });

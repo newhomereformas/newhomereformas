@@ -8,7 +8,6 @@
  *
  * Copyright 2016, booncon oy - http://booncon.com
  *
- *
  * Released under the MIT license - http://opensource.org/licenses/MIT
  */
 
