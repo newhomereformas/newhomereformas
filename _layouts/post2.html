@@ -13,7 +13,13 @@
 
 			<!-- Header -->
       <header id="header">
-        <a href="{{ "/" | absolute_url }}" class="logo">{{ site.title }}</a>
+				{% if page.language contains 'ca' %}
+					<a href="{{ "/" | absolute_url | append: "ca" }}" class="logo">{{ site.title }}</a>
+				{% elsif page.language contains 'en' %}
+					<a href="{{ "/" | absolute_url | append: "en" }}" class="logo">{{ site.title }}</a>
+				{% else %}
+					<a href="{{ "/" | absolute_url }}" class="logo">{{ site.title }}</a>
+				{% endif %}
       </header>
 
 			<!-- Nav -->

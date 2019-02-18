@@ -3,9 +3,13 @@
 
   {% if page.layout == "post" %}
     <li class="active">
-      <a href="{{ "/" | absolute_url }}">
-        <img src="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}" alt="" style="vertical-align: middle;"/>
-      </a>
+			{% if page.language contains 'ca' %}
+				<a href="{{ "/" | absolute_url | append: "ca" }}"><img src="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}" alt="" style="vertical-align: middle;"/></a>
+			{% elsif page.language contains 'en' %}
+				<a href="{{ "/" | absolute_url | append: "en" }}"><img src="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}" alt="" style="vertical-align: middle;"/></a>
+			{% else %}
+				<a href="{{ "/" | absolute_url }}"><img src="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}" alt="" style="vertical-align: middle;"/></a>
+			{% endif %}
     </li>
     <li>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="text-transform:none;">Blog</span></p>
