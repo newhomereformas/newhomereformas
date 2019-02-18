@@ -50,7 +50,7 @@ espacio12:
 title_services:
   en: Services
 services:
-  en: We offer an extensive range of services to our clients carried out by our team of professionals.
+  en: We offer an extensive range of services to our clients carried out by our team of professionals
 
 service1:
   en: Masonry
@@ -81,9 +81,5 @@ service12:
 title_suppliers:
   en: Suppliers
 suppliers:
-  en: We work with the following providers so that our customers enjoy the <strong>maximum quality of the materials</strong>.
-
-supplier1:
-  en:
-
+  en: We work with the following providers so that our customers enjoy the <strong>maximum quality of the materials</strong>
 ---

@@ -2,36 +2,29 @@
 layout:   post
 language: ca
 title:    "Mobles reciclats"
-date:     2019-02-02
-fecha:    "2 de febrer del 2019"
+date:     2019-02-17
+fecha:    "17 de febrer del 2019"
 
 fecha:
-  ca: "2 de febrer del 2019"
+  ca: "17 de febrer del 2019"
 
 title:
   ca: "Mobles reciclats"
 
 subtitle:
   ca: "Salvem el planeta!"
+
+feature1:
+  es: "Banyera convertida en sofa"
+feature2:
+  es: "Cadires de suro"
+feature3:
+  es: "Pneumàtics reutilitzats com a taula exterior"
+feature4:
+  es: "Escala de palets"
+feature5:
+  es: "Terrassa de fusta reutilitzada"
 ---
+A casa trobem multitud d'objectes els quals la podriem questionar-nos la seva utilitat. Mitjançant senzilles tècniques de bricolatge podem transformarlos en mobles de reciclatge que aporten una personalitat única a la nostra llar o negoci, a més són econòmics i es troben en consonància amb el medi ambient.
 
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
-
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
-
-Open a terminal window or a command line and ```cd``` to that location.
-
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
-
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
-```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-```
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+Mirem alguns exemples per donar una segona oportunitat a objectes d'estar per casa:

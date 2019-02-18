@@ -10,16 +10,16 @@ subtitle:
   ca: La teva empresa de reformes a Barcelona
 
 sketch:
-  ca: Tenim anys d'experiencia en el sector de l'interiorisme i les instal·lacions
+  ca: Comptem amb més de 30 anys d'experiència en el sector de l'interiorisme i les instal·lacions
 
 highlight:
   ca: Reformes a Barcelona
 
 motto:
-  ca: Fem reformes completament adaptades a les teves necesitats<br style="display:block !important;"/>¡Demana ara el teu presupost!
+  ca: Fem reformes completament adaptades a les teves necessitats<br style="display:block !important;"/>Demana ara el teu presupost!
 
 about:
-  ca: Som una empresa de reformes ubicada a la ciutat de Barcelona amb més de 30 anys d'experiéncia en el sector de la construcció. Durant aquest temps hem <strong>renovat tot tipus d'espais a l'area metropolitana de Barcelona</strong>, des de petites reparacions fins a la completa remodelació de grans superfícies.<br><br>L'evolució de la construcció ha marcat la nostra forma de treballar, valors com ara complir amb els terminis d'execució de l'obra, un control de qualitat efectiu i la tranquilitat que transmet estar en mans de professionals qualificats defineixen la nostra marca.<br><br>New Home Reformas brinda la possibilitat de condicionar espais de diferent naturalesa depenent de les seves necessitats.
+  ca: Som una empresa de reformes ubicada a la ciutat de Barcelona amb més de 30 anys d'experiència en el sector de la construcció. Durant aquest temps hem <strong>renovat tot tipus d'espais a l'àrea metropolitana de Barcelona</strong>, des de petites reparacions fins a la remodelació completa de grans superfícies.<br><br>L'evolució de la construcció ha marcat la nostra forma de treballar; valors com ara complir amb els terminis d'execució de l'obra, un control de qualitat efectiu i la tranquil·litat que transmet estar en mans de professionals qualificats defineixen la nostra marca.<br><br><em>New Home Reformas</em> brinda la possibilitat de condicionar espais de tota mena depenent de les seves necessitats.
 
 espacio1:
   ca: <strong style="font-size:1.1rem;">Immobles</strong>
@@ -49,10 +49,10 @@ espacio12:
 title_services:
   ca: Serveis
 services:
-  ca: Oferim un extens ventall de serveis als nostres clients duts a terme pel nostre equip de tècnics professionals.
+  ca: Oferim un extens ventall de serveis als nostres clients duts a terme pel nostre equip de tècnics professionals
 
 service1:
-  ca: Paleta
+  ca: Feines de paleta
 service2:
   ca: Fusteria
 service3:
@@ -79,6 +79,5 @@ service12:
 title_suppliers:
   ca: Proveïdors
 suppliers:
-  ca: Treballem amb els següents proveïdors per tal de que els nostres clients disfrutin de la <strong>màxima qualitat en els materials</strong>.
-
+  ca: Treballem amb els següents proveïdors per tal que els nostres clients gaudexin dels <strong>materials de la millor qualitat</strong>
 ---

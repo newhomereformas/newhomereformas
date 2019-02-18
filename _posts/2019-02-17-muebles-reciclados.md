@@ -26,7 +26,7 @@ title:
 subtitle:
   es: "¡Salvemos el planeta!"
   ca: "Salvem el planeta!"
-  en: "Let's save the planet!"
+  en: "Do it yourself!"
 
 feature1:
   es: "Bañera reciclada en sofa"
@@ -35,7 +35,7 @@ feature2:
 feature3:
   es: "Neumáticos reutilizados para mesa exterior"
 feature4:
-  es: "Escalera de palés"
+  es: "Escalera de palets"
 feature5:
   es: "Terraza de madera reutilizada"
 ---

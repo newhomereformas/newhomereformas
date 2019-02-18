@@ -1,30 +1,30 @@
 ---
-layout: post
-language: es
-title:  "Mierda reciclada"
-date:   2019-01-03
-fecha:  "3 de Enero de 2019"
-excerpt: "¡Salvemos el planeta!"
-image: "/images/pic02.jpg"
+layout:   post
+language: en
+title:    "Recycled furniture"
+date:     2019-02-17
+fecha:    "February 17th, 2019"
+
+fecha:
+  ca: "February 17th, 2019"
+
+title:
+  ca: "Recycled furniture"
+
+subtitle:
+  ca: "Do it yourself!"
+
+feature1:
+  es: "Bathtub turned into a sofa"
+feature2:
+  es: "Cork chairs"
+feature3:
+  es: "Tires reused as outdoor tables"
+feature4:
+  es: "Pallet ladder"
+feature5:
+  es: "Reused wooden terrace"
 ---
+At home we usually end up keeping many objects whose utility could be questioned. By means of simple DIY techniques we can transform them into recycled furniture that brings a unique personality to our home, as well as being economical and keeping in touch with the environment.
 
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
-
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
-
-Open a terminal window or a command line and ```cd``` to that location.
-
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
-
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
-```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-```
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+Let's see some examples to give a second chance to everyday objects:
