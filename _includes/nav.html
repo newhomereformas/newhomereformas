@@ -1,5 +1,5 @@
 <ul class="links">
-  {% if page.layout == "post" %}
+  {% if (page.layout == "post") || (page.layout == "post2") %}
     <li class="active">
 			{% if page.language contains 'ca' %}
 				<a href="{{ "/" | absolute_url | append: "ca" }}"><img src="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}" alt="" style="vertical-align: middle;"/></a>
