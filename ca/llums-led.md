@@ -1,29 +1,28 @@
 ---
 layout:   post
 language: ca
-title:    "Llums led"
-date:     2019-01-11
-fecha:    "11 de Gener del 2019"
-excerpt:  "Quins aventatges ofereixen els llums led?"
+date:     2019-02-12
 image:    "/images/led.jpg"
+img1:     "/images/posts/led1.jpg"
+img2:     "/images/posts/led2.jpg"
+
+fecha:
+  ca: "12 de febrer del 2019"
+title:
+  ca: "Llums led"
+feature1:
+  ca: "Eficiència energètica"
+feature2:
+  ca: "Sostenibilitat"
 ---
+------
+## Il·luminació LED
+Els llums LED s'han assentat en el mercat com la tecnologia més avançada i duradora, recomanada per a il·luminar qualsevol llar o negoci tal com ho farien les bombetes convencionals. Per faudir de la tecnologia LED no es necessari cap canvi a la nostra instal·lació elèctrica, simplement reemplaçant una per l'altra ja tindríem una il·luminació de major qualitat que proporciona un estalvi energètic considerable. Hi ha multitud de llums LED de diferents formes i mides disponibles al mercat que permeten regular la seva intensitat per crear l'atmosfera adecuada.
 
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
+Els avantatges que ofereixen els llums LED respecte a les làmpades tradicionals són:
 
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
+* Una **llarga vida útil** mantenint una llum blanca de gran qualitat.
 
-Open a terminal window or a command line and ```cd``` to that location.
+* Un **baix consum** arribant a estalviar un 80% de la nostra factura elèctrica.
 
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
-
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
-
-```
-¿Qué ventajas ofrecen las instalaciones LED?
-```
-
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+* No contenen mercuri pel que són **respetuoses amb el medi ambient** i no són perjudicials per a la salut.

@@ -8,7 +8,8 @@ description:
 locale:                   es_ES
 baseurl:                  "" # the subpath of your site, e.g. /blog
 url:                      "" # the base hostname & protocol for your site
-link:                     "http://localhost:4000/"
+# link:                     "http://localhost:4000/"
+link:                     "https://newhomereformas.com/"
 background_image:         /images/bg.jpg
 
 header1:
@@ -53,9 +54,9 @@ title_privacy:
   en: Privacy policy
 
 conditions:
-  es: New Home Reformas utiliza y protege la información proporcionada por los usuarios con el fin de no comprometer la seguridad de sus datos. Cuando le pedimos rellenar los campos de información personal con los que usted puede ser identificado, lo hacemos asegurando que solo se empleará de acuerdo con los términos de este documento. Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible a los usuarios, particularmente para mantener un registro de usuarios interesados en realizar un presupuesto de obra. Es posible que sean enviados correos electrónicos periódicamente con ofertas especiales, nuevos productos y otra información que consideremos relevante para usted. Estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento respondiendo a dicho correo. Este sitio web puede contener enlaces a otros sitios que pudieran ser de su interés. Una vez que usted pulsa en estos enlaces y abandona nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o de la protección de sus datos en sitios terceros, estos sitios están sujetos a sus propias políticas de privacidad. En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestro sitio web. New Home Reformas no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento.
-  ca: New Home Reformes utilitza i protegeix la informació proporcionada pels usuaris per tal de no comprometre la seguretat de les seves dades. Quan li demanem omplir els camps d'informació personal amb els que vostè pot ser identificat, ho fem assegurant que només es farà servir d'acord amb les condicions d'aquest document. El nostre lloc web empra la informació per tal de proporcionar el millor servei possible als usuaris, particularment per mantenir un registre d'usuaris interessats a realitzar un pressupost d'obra. És possible que siguin enviats correus electrònics periòdicament amb ofertes especials, nous productes i altra informació que considerem rellevant per a vostè. Aquests correus electrònics seran enviats a l'adreça que vostè proporcioni i podran ser cancel·lats en qualsevol moment responent al mateix correu. Aquest lloc web pot contenir enllaços a altres llocs que puguin ser del seu interès. Una vegada que vostè accedeix a aquests enllaços i abandona la nostra pàgina, ja no tenim control sobre el lloc al qual és redirigit i per tant no som responsables dels termes o de la protecció de les seves dades en llocs de tercers, ja que aquests llocs estan subjectes a les seves pròpies polítiques de privacitat. En qualsevol moment vostè pot restringir la recopilació o l'ús de la informació personal que és proporcionada al nostre lloc web. New Home Reformes no vendrà, cedirà o distribuirà la informació personal que és recopilada sense el seu consentiment.
-  en: New Home Reformas uses and protects the information that is provided by users in order not to compromise the security of their data. When we ask you to fill in the fields of personal information with which you can be identified, we do so by ensuring that it will only be used in accordance with the terms and conditions of this document. Our website uses the information in order to provide the best possible service to users, particularly to maintain a registry of users interested in a refurbishing budget. E-mails may be sent periodically through our site with special offers, new products and other information that we consider relevant to you. These emails will be sent to the address you provide and may be canceled at any time by replying to such email. This website may contain links to other sites that may be of interest to you. Once you click on these links and leave our page, we no longer have control over the site to which you are redirected and therefore we are not responsible for the terms or the protection of your data in third party sites, these sites are subject to their own privacy policies. At any time you may restrict the collection or use of personal information that is provided to our website. New Home Reformas will not sell, assign or distribute the personal information that is collected without your consent.
+  es: New Home Reformas utiliza y protege la información proporcionada por los usuarios con el fin de no comprometer la seguridad de sus datos. Cuando le pedimos rellenar los campos de información personal con los que usted puede ser identificado, lo hacemos asegurando que solo se empleará de acuerdo con los términos de este documento. Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible a los usuarios, particularmente para mantener un registro de usuarios interesados en realizar un presupuesto de obra. Es posible que sean enviados correos electrónicos periódicamente con ofertas especiales, nuevos productos y otra información que consideremos relevante para usted. Estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento respondiendo a dicho correo. Este sitio web puede contener enlaces a otros sitios que pudieran ser de su interés. Una vez que usted pulsa en estos enlaces y abandona nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o de la protección de sus datos en sitios terceros, estos sitios están sujetos a sus propias políticas de privacidad. En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestro sitio web. New Home Reformas no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento en virtud de la LOPD y ley orgánica 3/2018 y podrá ejercer sus derechos ARCO.
+  ca: New Home Reformes utilitza i protegeix la informació proporcionada pels usuaris per tal de no comprometre la seguretat de les seves dades. Quan li demanem omplir els camps d'informació personal amb els que vostè pot ser identificat, ho fem assegurant que només es farà servir d'acord amb les condicions d'aquest document. El nostre lloc web empra la informació per tal de proporcionar el millor servei possible als usuaris, particularment per mantenir un registre d'usuaris interessats a realitzar un pressupost d'obra. És possible que siguin enviats correus electrònics periòdicament amb ofertes especials, nous productes i altra informació que considerem rellevant per a vostè. Aquests correus electrònics seran enviats a l'adreça que vostè proporcioni i podran ser cancel·lats en qualsevol moment responent al mateix correu. Aquest lloc web pot contenir enllaços a altres llocs que puguin ser del seu interès. Una vegada que vostè accedeix a aquests enllaços i abandona la nostra pàgina, ja no tenim control sobre el lloc al qual és redirigit i per tant no som responsables dels termes o de la protecció de les seves dades en llocs de tercers, ja que aquests llocs estan subjectes a les seves pròpies polítiques de privacitat. En qualsevol moment vostè pot restringir la recopilació o l'ús de la informació personal que és proporcionada al nostre lloc web. New Home Reformes no vendrà, cedirà o distribuirà la informació personal que és recopilada sense el seu consentiment en virtut de la LOPD i llei orgànica 3/2018 i podrà exercir els seus drets ARCO.
+  en: New Home Reformas uses and protects the information that is provided by users in order not to compromise the security of their data. When we ask you to fill in the fields of personal information with which you can be identified, we do so by ensuring that it will only be used in accordance with the terms and conditions of this document. Our website uses the information in order to provide the best possible service to users, particularly to maintain a registry of users interested in a refurbishing budget. E-mails may be sent periodically through our site with special offers, new products and other information that we consider relevant to you. These emails will be sent to the address you provide and may be canceled at any time by replying to such email. This website may contain links to other sites that may be of interest to you. Once you click on these links and leave our page, we no longer have control over the site to which you are redirected and therefore we are not responsible for the terms or the protection of your data in third party sites, these sites are subject to their own privacy policies. At any time you may restrict the collection or use of personal information that is provided to our website. New Home Reformas will not sell, assign or distribute the personal information that is collected without your consent under the LOPD and organic law 3/2018 and may exercise their rights ARCO.
 
 contact_name:
   es: Nombre
@@ -86,7 +87,7 @@ contact_nif: NIF
 nif: "B66554445"
 
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-formspree_thankyou_page:  /thank-you
+# formspree_thankyou_page:  /thank-you
 
 # Polyglot
 permalink: pretty
@@ -116,13 +117,13 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   default
+# disqus_shortname:   default
 
 # Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
+# analytics-id:       "default"
+# twitter:            default
+# facebook:           default
+# instagram:          default
 
 # Personal
 location:
@@ -139,13 +140,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
+#  - jekyll-paginate
 
-paginate: 6
-paginate_path: "/blog/page:num/"
+# paginate: 6
+# paginate_path: "/blog/page:num/"
 
-jekyll-mentions:
-    base_url: https://github.com
+# jekyll-mentions:
+#     base_url: https://github.com
 
 # Exclude list
 exclude: [Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, Rakefile, old]

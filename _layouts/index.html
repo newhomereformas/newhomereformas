@@ -121,10 +121,10 @@
 
 							<div class="4u 12u$(small)">
 								<ul>
-									<li>{{ page.service5[page.language] }}</li>
-									<li>{{ page.service6[page.language] }}</li>
-									<li>{{ page.service7[page.language] }}</li>
-									<li>{{ page.service8[page.language] }}</li>
+									<li>{{ page.service9[page.language] }}</li>
+									<li>{{ page.service10[page.language] }}</li>
+									<li>{{ page.service11[page.language] }}</li>
+									<li>{{ page.service12[page.language] }}</li>
 								</ul>
 							</div>
 						</div>
@@ -134,19 +134,38 @@
             <p>{{ page.suppliers[page.language] }}</p>
 						<table>
 						  <tr>
-						    <td>Porcelanosa</td>
-								<td></td>
-						    <td>img</td>
+						    <td style="width:33%;">
+									<a href="http://www.ceramicasanandres.com/" style="border-bottom:none;" target="_blank">
+										<img src="{{ "/images/provedores/csa.jpg" | absolute_url }}" title="Cocinas San Andrés" style="border-radius:15%; width:20%; vertical-align:middle;">
+									</a>
+								</td>
+						    <td style="width:33%;">
+									<a href="https://www.bricomart.es/" style="border-bottom:none;" target="_blank">
+										<img src="{{ "/images/provedores/bricomart.png" | absolute_url }}" title="Bricomart" style="width:85%; vertical-align:middle;">
+									</a>
+								</td>
+						    <td style="width:34%;">
+									<a href="http://www.leroymerlin.es/" style="border-bottom:none;" target="_blank">
+										<img src="{{ "/images/provedores/lm.png" | absolute_url }}" title="Leroy Merlín" style="width:30%; vertical-align:middle;">
+									</a>
+								</td>
 						  </tr>
 						  <tr>
-						    <td>Mármol güeno</td>
-								<td></td>
-						    <td>img</td>
-						  </tr>
-						  <tr>
-						    <td>Aislante güeno</td>
-								<td></td>
-						    <td>img</td>
+						    <td style="width:33%;">
+									<a href="https://www.teclisa.com/es" style="border-bottom:none;" target="_blank">
+										<img src="{{ "/images/provedores/teclisa.png" | absolute_url }}" title="Teclisa" style="width:45%; vertical-align:middle;">
+									</a>
+								</td>
+						    <td style="width:33%;">
+									<a href="https://cocinas-tpc.com/" style="border-bottom:none;" target="_blank">
+										<img src="{{ "/images/provedores/tpc.png" | absolute_url }}" title="TPC Cocinas" style="width:23%; vertical-align:middle;">
+									</a>
+								</td>
+						    <td style="width:34%;">
+									<a href="https://maderassanandres.es/" style="border-bottom:none;" target="_blank">
+										<img src="{{ "/images/provedores/msa.png" | absolute_url }}" title="Maderas San Andrés" style="width:17%; vertical-align:middle;">
+									</a>
+								</td>
 						  </tr>
 						</table>
 
@@ -168,7 +187,7 @@
 									<span class="date">{{ post.fecha[page.language] }}</span>
 									<h2><a href="{{ link }}">{{ post.title[page.language] }}</a></h2>
 								</header>
-								<a href="{{ link }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+								<a href="{{ link }}" class="image fit post-image"><img src="{{ post.image | absolute_url }}"/></a>
 								<p style="text-align:center;"><strong>{{ post.subtitle[page.language] }}</strong></p>
 								<ul class="actions">
 									<li><a href="{{ link }}" class="button">{{ site.view[page.language] }}</a></li>

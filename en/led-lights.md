@@ -1,29 +1,28 @@
 ---
-layout: post
+layout:   post
 language: en
-title:  "Led lights"
-date:   2019-01-11
-fecha:  "11th, January 2019"
-excerpt: "What are the advantages of led lights?"
-image: "/images/led.jpg"
+date:     2019-02-12
+image:    "/images/led.jpg"
+img1:     "/images/posts/led1.jpg"
+img2:     "/images/posts/led2.jpg"
+
+fecha:
+  en: "February 12th, 2019"
+title:
+  ca: "Led lights"
+feature1:
+  ca: "Energy efficiency"
+feature2:
+  ca: "Sustainability"
 ---
+------
+## LED lights
+LED lights have established in the market as the most advanced and durable technology recommended to illuminate any space just as conventional bulbs would. In order to enjoy the LED technology, no change is necessary in our electrical installation, simply by replacing one with the other we would have a higher lightning quality which provides a considerable energy saving. There are many LED lamps available in the market with different shapes and sizes that allow to regulate its intensity to create the optimal atmosphere.
 
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
+The advantages offered by LED lights compared to traditional lamps are:
 
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
+* A **long service life** while maintaining a high quality of white light.
 
-Open a terminal window or a command line and ```cd``` to that location.
+* A **low consumption** reaching savings of 80% of our electric bill.
 
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
-
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
-
-```
-¿Qué ventajas ofrecen las instalaciones LED?
-```
-
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+* They do not contain mercury so they are **respectful with the environment** and are not harmful to our health.

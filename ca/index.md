@@ -19,7 +19,7 @@ motto:
   ca: Fem reformes completament adaptades a les teves necesitats<br style="display:block !important;"/>¡Demana ara el teu presupost!
 
 about:
-  ca: Som una empresa de reformes ubicada a la ciutat de Barcelona amb més de 30 anys d'experiéncia en el sector de la construcció. Durant aquest temps hem <strong>renovat tot tipus d'espais a l'area metropolitana de Barcelona</strong>, des de petites reparacions fins a la completa remodelació de grans superfícies.<br><br>L'evolució de la construcció ha marcat la nostra forma de treballar, valors com ara complir amb els terminis d'execució de l'obra, un control de qualitat efectiu i la tranquilitat que transmet estar en mans de professionals qualificats defineixen la nostra marca. New Home Reformas brinda la possibilitat de condicionar espais de diferent naturalesa depenent de les necessitats dels clients.
+  ca: Som una empresa de reformes ubicada a la ciutat de Barcelona amb més de 30 anys d'experiéncia en el sector de la construcció. Durant aquest temps hem <strong>renovat tot tipus d'espais a l'area metropolitana de Barcelona</strong>, des de petites reparacions fins a la completa remodelació de grans superfícies.<br><br>L'evolució de la construcció ha marcat la nostra forma de treballar, valors com ara complir amb els terminis d'execució de l'obra, un control de qualitat efectiu i la tranquilitat que transmet estar en mans de professionals qualificats defineixen la nostra marca.<br><br>New Home Reformas brinda la possibilitat de condicionar espais de diferent naturalesa depenent de les seves necessitats.
 
 espacio1:
   ca: <strong style="font-size:1.1rem;">Immobles</strong>
@@ -50,6 +50,31 @@ title_services:
   ca: Serveis
 services:
   ca: Oferim un extens ventall de serveis als nostres clients duts a terme pel nostre equip de tècnics professionals.
+
+service1:
+  ca: Paleta
+service2:
+  ca: Fusteria
+service3:
+  ca: Serralleria
+service4:
+  ca: Electricitat
+service5:
+  ca: Fontaneria
+service6:
+  ca: Falsos sostres
+service7:
+  ca: Cristalleria
+service8:
+  ca: Pintura
+service9:
+  ca: Pladur
+service10:
+  ca: Estuc
+service11:
+  ca: ...
+service12:
+  ca: ...
 
 title_suppliers:
   ca: Proveïdors

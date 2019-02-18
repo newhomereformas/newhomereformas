@@ -84,3 +84,16 @@
 			}
 		}
 	}
+
+	.post-image {
+
+		height: 500px;
+
+		@include breakpoint(medium) {
+			height: 300px;
+		}
+
+		@include breakpoint(small) {
+			height: 300px;
+		}
+	}

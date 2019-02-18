@@ -33,7 +33,9 @@ jQuery('#slider-home').slippry({
   speed: 2500 // time the transition takes (ms)
 });
 
-jQuery('#out-of-the-box-demo').slippry();
+jQuery('#slider-post').slippry({
+  auto: false
+});
 
 // Privacy policy toggle
 $("#pp").click( function(){
