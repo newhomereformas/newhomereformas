@@ -1,17 +1,17 @@
 # Site
 title:                    New Home Reformas
-bio:                      Empresa de reformas
-description:
-  es: Reformas en el área metropolitana de Barcelona
-  ca: Reformes a l'àrea metropolitana de Barcelona
-  en: House rehabilitation in the metropolitan area of ​​Barcelona
 locale:                   es_ES
 baseurl:                  "" # the subpath of your site, e.g. /blog
 url:                      "" # the base hostname & protocol for your site
 # link:                   "http://localhost:4000/"
 link:                     "https://www.newhomereformas.com/"
 background_image:         /images/bg.jpg
+bio:                      Empresa de reformas
 
+description:
+  es: Reformas en el área metropolitana de Barcelona
+  ca: Reformes a l'àrea metropolitana de Barcelona
+  en: House rehabilitation in the metropolitan area of ​​Barcelona
 header1:
   es: ¿Empezamos?
   ca: Comencem?
@@ -37,17 +37,19 @@ view:
   es: Ver más
   ca: Veure més
   en: Read more
-
 send:
   es: Enviar
   ca: Enviar
   en: Send
+thankyou:
+  es: Muchas gracias, pronto nos pondremos en contacto contigo.
+  ca: Moltes gràcies, aviat ens posarem en contacte amb tu.
+  en: Thank you, we are going to contact you very soon.
 
 privacy:
   es: Enviando un mesaje aceptas nuestra <a id="pp">política de privacidad</a>
   ca: Enviant un missatge acceptes la nostra <a id="pp">política de privacitat</a>
   en: By sending a message you agree with our <a id="pp">privacy policy</a>
-
 title_privacy:
   es: Política de privacidad
   ca: Política de privacitat
@@ -62,12 +64,10 @@ contact_name:
   es: Nombre
   ca: Nom
   en: Name
-
 contact_email:
   es: Correo
   ca: Correu
   en: Email
-
 contact_phone:
   es: Teléfono
   ca: Telèfon
@@ -85,9 +85,6 @@ contact_location:
 
 contact_nif: NIF
 nif: "B66554445"
-
-# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-# formspree_thankyou_page:  /thank-you
 
 # Polyglot
 permalink: pretty

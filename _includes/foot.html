@@ -21,9 +21,14 @@
         <textarea style="resize:vertical; min-height:100px;" name="message" id="message" rows="3" ></textarea>
       </div>
       <ul class="actions">
-        <li><input type="submit" value="{{site.send[page.language]}}" style="padding-left:25px; padding-right:25px;"/></li>
+        <li><input id="sendmessage" type="submit" value="{{site.send[page.language]}}" style="padding-left:25px; padding-right:25px;"/></li>
         <!-- Privacy policy -->
         <span style="font-size:0.70rem;">{{ site.privacy[page.language] }}</span>
+
+        <span id="thankyou" style="display:none; font-size:0.85rem; font-weight:900;">
+          <br>
+          {{ site.thankyou[page.language] }}
+        </span>
 
         <li id="conditions" style="display:none;">
           <br>

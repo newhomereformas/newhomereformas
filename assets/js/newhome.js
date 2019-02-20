@@ -46,3 +46,8 @@ $("#pp").click( function(){
     $("#conditions").hide();
   }
 });
+
+// Thank you
+$("#sendmessage").click( function(){
+  $("#thankyou").show();
+});
