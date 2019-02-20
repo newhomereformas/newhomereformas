@@ -1,37 +1,52 @@
 <footer id="footer">
   <!-- Form -->
   <section>
-    <form id="contactform" method="POST" action="https://formspree.io/newhomereformasbcn@gmail.com">
-      <!-- TODO Next would be a thankyou_text not page! -->
-      <input type="hidden" name="_next" value="{{site.link}}">
-      <div class="field">
-        <label for="name">{{ site.contact_name[page.language] }}</label>
-        <input type="text" name="name" id="name" />
-      </div>
-      <div class="field">
-        <label for="email">{{ site.contact_email[page.language] }}</label>
-        <input type="text" name="email" id="email" />
-      </div>
-      <div class="field">
-        <label for="telf">{{ site.contact_phone[page.language] }}</label>
-        <input type="text" name="telf" id="telf" />
-      </div>
-      <div class="field">
-        <label for="message">{{ site.contact_message[page.language] }}</label>
-        <textarea style="resize:vertical; min-height:100px;" name="message" id="message" rows="3" ></textarea>
-      </div>
-      <ul class="actions">
-        <li><input id="sendmessage" type="submit" value="{{site.send[page.language]}}" style="padding-left:25px; padding-right:25px;"/></li>
-        <!-- Privacy policy -->
-        <span style="font-size:0.70rem;">{{ site.privacy[page.language] }}</span>
+    {% if (page.layout == "post") or (page.layout == "post2") %}
+      <br>
+      <img src="{{ "/images/roof_mod2.png" | absolute_url }}" style="width:75%; opacity:0.65; margin:auto; display:block;"/>
+      <br>
+      <h2 style="text-align:center;">NEW HOME REFORMAS</h2>
+      <br>
+      {% if page.language contains 'ca' %}
+        <p style="text-align:center; font-size: 0.88rem;"><a href="{{site.link}}ca/#footer">{{ site.motto[page.language] }}</a></p>
+      {% elsif page.language contains 'en' %}
+        <p style="text-align:center; font-size: 1.1rem;"><a href="{{site.link}}en/#footer">{{ site.motto[page.language] }}</a></p>
+      {% else %}
+        <p style="text-align:center; font-size: 0.95rem;"><a href="{{site.link}}#footer">{{ site.motto[page.language] }}</a></p>
+      {% endif %}
+    {% else %}
+      <form id="contactform" method="POST" action="https://formspree.io/newhomereformasbcn@gmail.com">
+        <!-- TODO Next would be a thankyou_text not page! -->
+        <input type="hidden" name="_next" value="{{site.link}}">
+        <div class="field">
+          <label for="name">{{ site.contact_name[page.language] }}</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="field">
+          <label for="email">{{ site.contact_email[page.language] }}</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="field">
+          <label for="telf">{{ site.contact_phone[page.language] }}</label>
+          <input type="text" name="telf" id="telf" />
+        </div>
+        <div class="field">
+          <label for="message">{{ site.contact_message[page.language] }}</label>
+          <textarea style="resize:vertical; min-height:100px;" name="message" id="message" rows="3" ></textarea>
+        </div>
+        <ul class="actions">
+          <li><input id="sendmessage" type="submit" value="{{site.send[page.language]}}" style="padding-left:25px; padding-right:25px;"/></li>
+          <!-- Privacy policy -->
+          <span style="font-size:0.70rem;">{{ site.privacy[page.language] }}</span>
 
-        <li id="conditions" style="display:none;">
-          <br>
-          <h3 style="margin-bottom:0.75rem;">{{ site.title_privacy[page.language] }}</h3>
-          <div style="font-size:0.75rem; text-align:justify;">{{ site.conditions[page.language] }}</div>
-        </li>
-      </ul>
-    </form>
+          <li id="conditions" style="display:none;">
+            <br>
+            <h3 style="margin-bottom:0.75rem;">{{ site.title_privacy[page.language] }}</h3>
+            <div style="font-size:0.75rem; text-align:justify;">{{ site.conditions[page.language] }}</div>
+          </li>
+        </ul>
+      </form>
+    {% endif %}
   </section>
 
   <!-- Contact -->
@@ -52,7 +67,6 @@
       <h3>{{ site.contact_nif }}</h3>
       <p>{{ site.nif }}</p>
     </section>
-
     <!-- <section>
       <h3>Social</h3>
       <ul class="icons alt" style="text-align:right;">
@@ -66,9 +80,9 @@
       <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
       <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
     </ul> -->
-
   </section>
 </footer>
+
 <!-- Copyright -->
 <div id="copyright">
   <ul><li>&copy; New Home Reformas</li>

@@ -15,9 +15,6 @@ sketch:
 highlight:
   ca: Reformes a Barcelona
 
-motto:
-  ca: Fem reformes completament adaptades a les teves necessitats<br style="display:block !important;"/>Demana ara el teu presupost!
-
 about:
   ca: Som una empresa de reformes ubicada a la ciutat de Barcelona amb més de 30 anys d'experiència en el sector de la construcció. Durant aquest temps hem <strong>renovat tot tipus d'espais a l'àrea metropolitana de Barcelona</strong>, des de petites reparacions fins a la remodelació completa de grans superfícies.<br><br>L'evolució de la construcció ha marcat la nostra forma de treballar; valors com ara complir amb els terminis d'execució de l'obra, un control de qualitat efectiu i la tranquil·litat que transmet estar en mans de professionals qualificats defineixen la nostra marca.<br><br><em>New Home Reformas</em> brinda la possibilitat de condicionar espais de tota mena depenent de les seves necessitats.
 

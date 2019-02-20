@@ -15,9 +15,6 @@ sketch:
 highlight:
   en: Refurbishing in Barcelona
 
-motto:
-  en: We make integral reforms tailored to your needs.<br style="display:block !important;"/>Ask for your budget now!
-
 about:
   en: We are a refurbishing company located in the city of Barcelona with more than 30 years of experience in the construction sector. Throughout this time we have <strong>renewed all types of spaces in the metropolitan area of Barcelona</strong>, from small reparations to the complete remodeling of large surfaces.<br><br>The evolution of constructions has stablished our way of working and our values defining our brand; meet the work execution deadlines, an effective quality control and the tranquility that transmits being in the hands of qualified professionals.<br><br>New Home Reformas offers the possibility of conditioning spaces of different kinds depending on your needs.
 

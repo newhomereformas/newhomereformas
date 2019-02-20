@@ -3,8 +3,8 @@ title:                    New Home Reformas
 locale:                   es_ES
 baseurl:                  "" # the subpath of your site, e.g. /blog
 url:                      "" # the base hostname & protocol for your site
-# link:                   "http://localhost:4000/"
-link:                     "https://www.newhomereformas.com/"
+link:                   "http://localhost:4000/"
+# link:                     "https://www.newhomereformas.com/"
 background_image:         /images/bg.jpg
 bio:                      Empresa de reformas
 
@@ -32,6 +32,11 @@ header5:
   es: Contacto
   ca: Contacte
   en: Contact
+
+motto:
+  es: Hacemos reformas integrales adaptadas a tus necesidades<br style="display:block !important;"/>¡Píde ahora tu presupuesto!
+  ca: Fem reformes completament adaptades a les teves necessitats<br style="display:block !important;"/>Demana ara el teu presupost!
+  en: We make integral reforms tailored to your needs.<br style="display:block !important;"/>Ask for your budget now!
 
 view:
   es: Ver más

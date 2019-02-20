@@ -15,9 +15,6 @@ sketch:
 highlight:
   es: Reformas en Barcelona
 
-motto:
-  es: Hacemos reformas integrales adaptadas a tus necesidades<br style="display:block !important;"/>¡Píde ahora tu presupuesto!
-
 about:
   es: Somos una empresa de reformas ubicada en la ciudad de Barcelona con más de 30 años de experiencia en el sector de la construcción. A lo largo de este tiempo <strong>hemos renovado todo tipo de espacios en el área metropolitana de Barcelona</strong>, desde pequeñas reparaciones hasta la completa remodelación de grandes superficies.<br><br>La evolución de la construcción ha marcado un antes y un después en nuestra forma de trabajar. Valores cómo cumplir los plazos de ejecución de la obra, un control de calidad efectivo y la tranquilidad que transmite estar en manos de profesionales cualificados definen nuestra marca.<br><br><em>New Home Reformas</em> brinda la posibilidad de acondicionar espacios de todo tipo dependiendo de sus necesidades.
 

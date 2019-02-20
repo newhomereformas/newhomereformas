@@ -15,8 +15,6 @@ feature1:
 feature2:
   ca: "Sustainability"
 ---
-------
-## LED lights
 LED lights have established in the market as the most advanced and durable technology recommended to illuminate any space just as conventional bulbs would. In order to enjoy the LED technology, no change is necessary in our electrical installation, simply by replacing one with the other we would have a higher lightning quality which provides a considerable energy saving. There are many LED lamps available in the market with different shapes and sizes that allow to regulate its intensity to create the optimal atmosphere.
 
 The advantages offered by LED lights compared to traditional lamps are:
