@@ -1,7 +1,7 @@
 <footer id="footer">
   <!-- Form -->
   <section>
-    <form id="contactform" method="POST"> <!--action="https://formspree.io/newhomereformasbcn@gmail.com"-->
+    <form id="contactform" method="POST" action="https://formspree.io/newhomereformasbcn@gmail.com">
       <!-- TODO Next would be a thankyou_text not page! -->
       <input type="hidden" name="_next" value="{{site.link}}">
       <div class="field">
@@ -24,11 +24,6 @@
         <li><input id="sendmessage" type="submit" value="{{site.send[page.language]}}" style="padding-left:25px; padding-right:25px;"/></li>
         <!-- Privacy policy -->
         <span style="font-size:0.70rem;">{{ site.privacy[page.language] }}</span>
-
-        <span id="thankyou" style="display:none; font-size:0.85rem; font-weight:900;">
-          <br>
-          {{ site.thankyou[page.language] }}
-        </span>
 
         <li id="conditions" style="display:none;">
           <br>

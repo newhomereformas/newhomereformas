@@ -46,22 +46,3 @@ $("#pp").click( function(){
     $("#conditions").hide();
   }
 });
-
-// Thank you
-$("#sendmessage").click( function(){
-
-  $.ajax({
-      url: "https://formspree.io/newhomereformasbcn@gmail.com",
-      method: "POST",
-      data: {
-        // name: $("#name").serialize(),
-        // email: $("#email").serialize(),
-        // telf: $("#telf").serialize(),
-        message: $("#contactform").serialize()
-      },
-      dataType: "json"
-  });
-
-  $("#thankyou").show();
-  return false;
-});
