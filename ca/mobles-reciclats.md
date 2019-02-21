@@ -20,13 +20,13 @@ subtitle:
   ca: "Salvem el planeta!"
 
 feature1:
-  ca: "Banyera convertida en sofa"
+  ca: "Escriptori fet a partir de fusta"
 feature2:
-  ca: "Cadires de suro"
+  ca: "Banyera convertida en sofa"
 feature3:
-  ca: "Pneumàtics transformats en taula exterior"
+  ca: "Taula recolzada en rodes de bicicleta"
 feature4:
-  ca: "Escala de palets"
+  ca: "Pneumàtics transformats en taula exterior"
 feature5:
   ca: "Terrassa de fusta reutilitzada"
 ---

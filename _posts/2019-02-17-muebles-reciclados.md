@@ -29,13 +29,13 @@ subtitle:
   en: "Do it yourself!"
 
 feature1:
-  es: "Bañera reciclada en sofa"
+  es: "Escritorio hecho a partir de madera"
 feature2:
-  es: "Sillas de corcho"
+  es: "Bañera reciclada en sofa"
 feature3:
-  es: "Neumáticos reutilizados para mesa exterior"
+  es: "Mesa sostenida por ruedas de bicicleta"
 feature4:
-  es: "Escalera de palets"
+  es: "Neumáticos reutilizados para mesa exterior"
 feature5:
   es: "Terraza de madera reutilizada"
 ---

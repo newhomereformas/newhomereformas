@@ -182,13 +182,13 @@
 							{% else %}
 								{% assign link = post.url | absolute_url %}
 							{% endif %}
-							<article>
+							<article style="padding:2rem 4rem;">
 								<header>
 									<span class="date">{{ post.fecha[page.language] }}</span>
 									<h2><a href="{{ link }}">{{ post.title[page.language] }}</a></h2>
 								</header>
 								<a href="{{ link }}" class="image fit post-image"><img src="{{ post.image | absolute_url }}"/></a>
-								<p style="text-align:center;"><strong>{{ post.subtitle[page.language] }}</strong></p>
+								<p style="text-align:center; margin:0 0 1.75rem 0;"><strong>{{ post.subtitle[page.language] }}</strong></p>
 								<ul class="actions">
 									<li><a href="{{ link }}" class="button">{{ site.view[page.language] }}</a></li>
 								</ul>

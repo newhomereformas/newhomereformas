@@ -1,29 +1,34 @@
 ---
-layout:   post
+layout:   post2
 language: en
 title:    "Recycled furniture"
 date:     2019-02-17
 fecha:    "February 17th, 2019"
+img1:     "/images/posts/recycle1.jpg"
+img2:     "/images/posts/recycle2.jpg"
+img3:     "/images/posts/recycle3.jpg"
+img4:     "/images/posts/recycle4.jpg"
+img5:     "/images/posts/recycle5.jpg"
 
 fecha:
-  ca: "February 17th, 2019"
+  en: "February 17th, 2019"
 
 title:
-  ca: "Recycled furniture"
+  en: "Recycled furniture"
 
 subtitle:
-  ca: "Do it yourself!"
+  en: "Do it yourself!"
 
 feature1:
-  es: "Bathtub turned into a sofa"
+  en: "Desk made out of wood"
 feature2:
-  es: "Cork chairs"
+  en: "Bathtub turned into a sofa"
 feature3:
-  es: "Tires reused as outdoor tables"
+  en: "Bicycle wheels holding a table"
 feature4:
-  es: "Pallet ladder"
+  en: "Tires reused as outdoor tables"
 feature5:
-  es: "Reused wooden terrace"
+  en: "Reused wooden terrace"
 ---
 At home we usually end up keeping many objects whose utility could be questioned. By means of simple DIY techniques we can transform them into recycled furniture that brings a unique personality to our home, as well as being economical and keeping in touch with the environment.
 

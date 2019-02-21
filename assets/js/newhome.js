@@ -34,7 +34,8 @@ jQuery('#slider-home').slippry({
 });
 
 jQuery('#slider-post').slippry({
-  auto: false
+  auto: false,
+  adaptiveHeight: false
 });
 
 // Privacy policy toggle
