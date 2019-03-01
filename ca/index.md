@@ -16,8 +16,13 @@ highlight:
   ca: Reformes a Barcelona
 
 about:
-  ca: Som una empresa de reformes ubicada a la ciutat de Barcelona amb més de 30 anys d'experiència en el sector de la construcció. Durant aquest temps hem <strong>renovat tot tipus d'espais a l'àrea metropolitana de Barcelona</strong>, des de petites reparacions fins a la remodelació completa de grans superfícies.<br><br>L'evolució de la construcció ha marcat la nostra forma de treballar; valors com ara complir amb els terminis d'execució de l'obra, un control de qualitat efectiu i la tranquil·litat que transmet estar en mans de professionals qualificats defineixen la nostra marca.<br><br><em>New Home Reformas</em> brinda la possibilitat de condicionar espais de tota mena depenent de les seves necessitats.
+  ca: Som una empresa de reformes ubicada a la ciutat de Barcelona amb més de 30 anys d'experiència en el sector de la construcció. Durant aquest temps hem <strong>renovat tot tipus d'espais a l'àrea metropolitana de Barcelona</strong>, des de petites reparacions fins a la remodelació completa de grans superfícies.<br><br>L'evolució de la construcció ha marcat la nostra forma de treballar; valors com ara complir amb els terminis d'execució de l'obra, un control de qualitat efectiu i la tranquil·litat que transmet estar en mans de professionals qualificats defineixen la nostra marca.
 
+
+title_spaces:
+  ca: Espais
+spaces:
+  ca: <em>New Home Reformas</em> brinda la possibilitat de condicionar espais de tota mena depenent de les seves necessitats.
 espacio1:
   ca: <strong style="font-size:1.1rem;">Immobles</strong>
 espacio2:
@@ -63,18 +68,13 @@ service6:
 service7:
   ca: Cristalleria
 service8:
-  ca: Pintura
+  ca: Aire acondicionat
 service9:
-  ca: Pladur
+  ca: Calefacció
 service10:
-  ca: Estuc
+  ca: Façanes
 service11:
-  ca: ...
+  ca: Envans secs
 service12:
-  ca: ...
-
-title_suppliers:
-  ca: Proveïdors
-suppliers:
-  ca: Treballem amb els següents proveïdors per tal que els nostres clients gaudexin dels <strong>materials de la millor qualitat</strong>
+  ca: Pintura i estuc
 ---

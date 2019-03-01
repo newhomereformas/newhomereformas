@@ -3,11 +3,6 @@ layout:   post2
 language: es
 date:     2019-02-17
 image:    "/images/recycle.jpg"
-img1:     "/images/posts/recycle1.jpg"
-img2:     "/images/posts/recycle2.jpg"
-img3:     "/images/posts/recycle3.jpg"
-img4:     "/images/posts/recycle4.jpg"
-img5:     "/images/posts/recycle5.jpg"
 
 name:
   ca: "mobles-reciclats"
@@ -38,6 +33,9 @@ feature4:
   es: "Neumáticos reutilizados para mesa exterior"
 feature5:
   es: "Terraza de madera reutilizada"
+
+source:
+  es: Las imágenes anteriores se han obtenido del siguiente <a href="https://inarquia.es/ideas-muebles-reciclados" target="_blank">enlace</a>.
 ---
 En casa encontramos multitud de objetos cuya utilidad podría ser cuestionada. Mediante sencillas técnicas de bricolaje podemos transformarlos en muebles de reciclaje que aportan una personalidad única a nuestro hogar o negocio, además de ser económicos y estar en consonancia con el medio ambiente.
 

@@ -1,7 +1,7 @@
 <footer id="footer">
   <!-- Form -->
   <section>
-    {% if (page.layout == "post") or (page.layout == "post2") %}
+    {% if (page.layout == "post") or (page.layout == "post2") or (page.layout == "page") %}
       <br>
       <img src="{{ "/images/roof_mod2.png" | absolute_url }}" style="width:75%; opacity:0.65; margin:auto; display:block;"/>
       <br>
@@ -17,7 +17,13 @@
     {% else %}
       <form id="contactform" method="POST" action="https://formspree.io/newhomereformasbcn@gmail.com">
         <!-- TODO Next would be a thankyou_text not page! -->
-        <input type="hidden" name="_next" value="{{site.link}}">
+  			{% if page.language contains 'ca' %}
+          <input type="hidden" name="_next" value= '{{site.link}}ca/gracies'>
+  			{% elsif page.language contains 'en' %}
+          <input type="hidden" name="_next" value= '{{site.link}}en/thankyou'>
+  			{% else %}
+          <input type="hidden" name="_next" value= '{{site.link}}/gracias'>
+  			{% endif %}
         <div class="field">
           <label for="name">{{ site.contact_name[page.language] }}</label>
           <input type="text" name="name" id="name" />
@@ -60,12 +66,19 @@
       <p>{{site.phone}}</p>
     </section>
     <section>
-      <h3>{{ site.contact_email[page.language] }}</h3>
+      <h3 style="width:0;$(small)">{{ site.contact_email[page.language] }}</h3>
       <p>{{site.email}}</p>
     </section>
     <section>
-      <h3>{{ site.contact_nif }}</h3>
-      <p>{{ site.nif }}</p>
+      <h3>{{ site.certificates[page.language] }}</h3>
+      <div>
+        <p style="margin-bottom: 0rem;">{{ site.certificate1[page.language] }}</p>
+        <p style="margin-bottom: 0rem;">{{ site.certificate2[page.language] }}</p>
+        <p style="margin-bottom: 0rem;">{{ site.certificate3[page.language] }}</p>
+        <p style="margin-bottom: 0rem;">{{ site.certificate4[page.language] }}</p>
+        <p style="margin-bottom: 0rem;">{{ site.certificate5[page.language] }}</p>
+        <p style="margin-bottom: 0rem;">{{ site.certificate6[page.language] }}</p>
+      </div>
     </section>
     <!-- <section>
       <h3>Social</h3>

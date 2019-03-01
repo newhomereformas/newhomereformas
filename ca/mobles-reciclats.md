@@ -4,11 +4,6 @@ language: ca
 title:    "Mobles reciclats"
 date:     2019-02-17
 fecha:    "17 de febrer del 2019"
-img1:     "/images/posts/recycle1.jpg"
-img2:     "/images/posts/recycle2.jpg"
-img3:     "/images/posts/recycle3.jpg"
-img4:     "/images/posts/recycle4.jpg"
-img5:     "/images/posts/recycle5.jpg"
 
 fecha:
   ca: "17 de febrer del 2019"
@@ -29,6 +24,9 @@ feature4:
   ca: "Pneumàtics transformats en taula exterior"
 feature5:
   ca: "Terrassa de fusta reutilitzada"
+
+source:
+  ca: Les imatges anteriors s'han obtingut del següent <a href="https://inarquia.es/ideas-muebles-reciclados" target="_blank">enllaç</a>.
 ---
 A casa trobem multitud d'objectes els quals la podriem questionar-nos la seva utilitat. Mitjançant senzilles tècniques de bricolatge podem transformarlos en mobles de reciclatge que aporten una personalitat única a la nostra llar o negoci, a més són econòmics i es troben en consonància amb el medi ambient.
 

@@ -3,7 +3,7 @@ title:                    New Home Reformas
 locale:                   es_ES
 baseurl:                  "" # the subpath of your site, e.g. /blog
 url:                      "" # the base hostname & protocol for your site
-# link:                   "http://localhost:4000/"
+# link:                     "http://localhost:4000/"
 link:                     "https://www.newhomereformas.com/"
 background_image:         /images/bg.jpg
 bio:                      Empresa de reformas
@@ -17,13 +17,13 @@ header1:
   ca: Comencem?
   en: Ready?
 header2:
+  es: Espacios
+  ca: Espais
+  en: Serveis
+header3:
   es: Servicios
   ca: Serveis
   en: Services
-header3:
-  es: Proveedores
-  ca: Proveïdors
-  en: Suppliers
 header4:
   es: Blog
   ca: Blog
@@ -38,6 +38,11 @@ motto:
   ca: Fem reformes completament adaptades a les teves necessitats<br style="display:block !important;"/>Demana ara el teu presupost!
   en: We make integral reforms tailored to your needs.<br style="display:block !important;"/>Ask for your budget now!
 
+blog_title:
+  es: Nuestro blog
+  ca: El nostre blog
+  en: Our blog
+
 view:
   es: Ver más
   ca: Veure més
@@ -50,10 +55,14 @@ thankyou:
   es: Muchas gracias, pronto nos pondremos en contacto contigo.
   ca: Moltes gràcies, aviat ens posarem en contacte amb tu.
   en: Thank you, we are going to contact you very soon.
+title_thankyou:
+  es: Volver a la página principal
+  ca: Tornar a la pàgina principal
+  en: Go back to main website
 
 privacy:
-  es: Enviando un mesaje aceptas nuestra <a id="pp">política de privacidad</a>
-  ca: Enviant un missatge acceptes la nostra <a id="pp">política de privacitat</a>
+  es: Enviando un mesaje aceptas la <a id="pp">política de privacidad</a>
+  ca: Enviant un missatge acceptes la <a id="pp">política de privacitat</a>
   en: By sending a message you agree with our <a id="pp">privacy policy</a>
 title_privacy:
   es: Política de privacidad
@@ -77,23 +86,56 @@ contact_phone:
   es: Teléfono
   ca: Telèfon
   en: Phone
-
 contact_message:
   es: Mensaje
   ca: Missatge
   en: Message
-
 contact_location:
   es: Ubicación
   ca: Ubicació
   en: Location
 
-contact_nif: NIF
-nif: "B66554445"
+location:
+  es: Provincia de Barcelona
+  ca: Província de Barcelona
+  en: Province of Barcelona
+phone:  666633272
+email:  newhomereformasbcn@gmail.com
+
+certificates:
+  es: Certificados empresa
+  ca: Certificats d'empresa
+  en: Company certificates
+certificate1:
+  es: Electricidad (REIE)
+  ca: Electricitat (REIE)
+  en: Electricity (REIE)
+certificate2:
+  es: Gas B y C (REIG)
+  ca: Gas B i C (REIG)
+certificate3:
+  es: Climatització (RITE)
+  ca: Climatización (RITE)
+  en: Air conditioning (RITE)
+certificate4:
+  es: Asesor energético (FENIE)
+  ca: Assesor energètic (FENIE)
+  en: Energy consultant (FENIE)
+  en: Gas B & C (REIG)
+certificate5:
+  es: Instalaciones térmicas (REITE)
+  ca: Instal·lacions tèrmiques (REITE)
+  en: Thermal installations (REITE)
+certificate6:
+  es: Agua acreditada
+  ca: Aigua acreditada
+  en: Accredited water
 
 # Polyglot
 permalink: pretty
 
+# Jekyll
+# permalink:          /blog/:title/
 defaults:
 - scope:
     path: ''
@@ -103,8 +145,6 @@ defaults:
     layout: post
     author:
 
-# Jekyll
-# permalink:          /blog/:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -126,15 +166,6 @@ sass:
 # twitter:            default
 # facebook:           default
 # instagram:          default
-
-# Personal
-location:
-  es: Provincia de Barcelona
-  ca: Província de Barcelona
-  en: Province of Barcelona
-
-phone:              666633272
-email:              newhomereformasbcn@gmail.com
 
 # Gems/Plugins
 plugins:

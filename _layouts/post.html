@@ -36,18 +36,20 @@
     				<h1>{{ page.title[page.language] }}</h1>
     			</header>
 
+					<p>{{ content }}</p>
+
+					<br>
+
 					<div style="width:80%; height:80%; margin:0 auto;">
 						<ul id="slider-post">
 							<li>
-								<a><img src="{{page.img1}}" alt="{{page.feature1[page.language]}}"></a>
+								<a><img src="/images/posts/led1.jpg" alt="{{page.feature1[page.language]}}"></a>
 							</li>
 							<li>
-								<a><img src="{{page.img2}}" alt="{{page.feature2[page.language]}}"></a>
+								<a><img src="/images/posts/led2.jpg" alt="{{page.feature2[page.language]}}"></a>
 							</li>
 						</ul>
 					</div>
-
-					<p>{{ content }}</p>
 				</section>
 
 			</div>

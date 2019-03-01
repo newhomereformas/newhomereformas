@@ -3,8 +3,6 @@ layout:   post
 language: ca
 date:     2019-02-12
 image:    "/images/led.jpg"
-img1:     "/images/posts/led1.jpg"
-img2:     "/images/posts/led2.jpg"
 
 fecha:
   ca: "12 de febrer del 2019"

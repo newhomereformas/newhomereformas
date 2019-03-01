@@ -38,25 +38,27 @@
 
 					<p>{{ content }}</p>
 
-					<div style="width:100%; margin:0 auto;">
-						<ul id="slider-post">
-							<li>
-								<a><img src="{{page.img1}}" alt="{{page.feature1[page.language]}}"></a>
-							</li>
-							<li>
-								<a><img src="{{page.img2}}" alt="{{page.feature2[page.language]}}"></a>
-							</li>
-							<li>
-								<a><img src="{{page.img3}}" alt="{{page.feature3[page.language]}}"></a>
-							</li>
-							<li>
-								<a><img src="{{page.img4}}" alt="{{page.feature4[page.language]}}"></a>
-							</li>
-							<li>
-								<a><img src="{{page.img5}}" alt="{{page.feature5[page.language]}}"></a>
-							</li>
-						</ul>
+					<div class="box alt">
+						<div class="row 50% uniform">
+							<div class="6u"><span class="image fit">
+								<img src="/images/posts/recycle1.jpg" alt=""/>
+							</span></div>
+							<div class="5u"><span class="image fit">
+								<img src="/images/posts/recycle2.jpg" alt="" />
+							</span></div>
+							<div class="5u"><span class="image fit">
+								<img src="/images/posts/recycle4.jpg" alt="" />
+							</span></div>
+							<div class="7u"><span class="image fit">
+								<img src="/images/posts/recycle5.jpg" alt=""/>
+							</span></div>
+							<div class="5u"><span class="image fit">
+								<img src="/images/posts/recycle3.jpg" alt=""/>
+							</span></div>
+						</div>
 					</div>
+
+					<p>{{ page.source[page.language] }}</p>
 				</section>
 
 			</div>

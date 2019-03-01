@@ -10,12 +10,26 @@
 			{% endif %}
     </li>
     <li>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="text-transform:none;">Blog</span></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="text-transform:none;">{{ site.blog_title[page.language] }}</span></p>
+    </li>
+  {% elsif (page.layout == "page") %}
+
+    <li class="active">
+			{% if page.language contains 'ca' %}
+				<a href="{{ "/" | absolute_url | append: "ca" }}"><img src="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}" alt="" style="vertical-align: middle;"/></a>
+			{% elsif page.language contains 'en' %}
+				<a href="{{ "/" | absolute_url | append: "en" }}"><img src="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}" alt="" style="vertical-align: middle;"/></a>
+			{% else %}
+				<a href="{{ "/" | absolute_url }}"><img src="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}" alt="" style="vertical-align: middle;"/></a>
+			{% endif %}
+    </li>
+    <li>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="text-transform:none;">{{ site.title_thankyou[page.language] }}</span></p>
     </li>
   {% else %}
     <li class="active"><a>{{ site.header1[page.language] }}</a></li>
-    <li><a href="#servicios">{{ site.header2[page.language] }}</a></li>
-    <li><a href="#provedores">{{ site.header3[page.language] }}</a></li>
+    <li><a href="#espacios">{{ site.header2[page.language] }}</a></li>
+    <li><a href="#servicios">{{ site.header3[page.language] }}</a></li>
     <li><a href="#blog">{{ site.header4[page.language] }}</a></li>
     <li><a href="#footer">{{ site.header5[page.language] }}</a></li>
   {% endif %}

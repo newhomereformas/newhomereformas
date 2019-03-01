@@ -10,14 +10,18 @@ subtitle:
   en: Your refurbishing company in Barcelona
 
 sketch:
-  en: We have years of experience in interior design and installations
+  en: We have more than 30 years of experience in interior design and installations
 
 highlight:
   en: Refurbishing in Barcelona
 
 about:
-  en: We are a refurbishing company located in the city of Barcelona with more than 30 years of experience in the construction sector. Throughout this time we have <strong>renewed all types of spaces in the metropolitan area of Barcelona</strong>, from small reparations to the complete remodeling of large surfaces.<br><br>The evolution of constructions has stablished our way of working and our values defining our brand; meet the work execution deadlines, an effective quality control and the tranquility that transmits being in the hands of qualified professionals.<br><br>New Home Reformas offers the possibility of conditioning spaces of different kinds depending on your needs.
+  en: We are a refurbishing company located in the city of Barcelona with more than 30 years of experience in the construction sector. Throughout this time we have <strong>renewed all types of spaces in the metropolitan area of Barcelona</strong>, from small reparations to the complete remodeling of large surfaces.<br><br>The evolution of constructions has stablished our way of working and our values defining our brand; meet the work execution deadlines, an effective quality control and the tranquility that transmits being in the hands of qualified professionals.
 
+title_spaces:
+  en: Spaces
+spaces:
+  en: <em>New Home Reformas</em> offers the possibility of conditioning spaces of different kinds depending on your needs.
 espacio1:
   en: <strong style="font-size:1.1rem;">Real property</strong>
 espacio2:
@@ -64,19 +68,13 @@ service6:
 service7:
   en: Glassware
 service8:
-  en: Painting
+  en: Air conditioning
 service9:
-  en: Pladur
+  en: Heating systems
 service10:
-  en: Stucco
+  en: Facades
 service11:
-  en: ...
+  en: Dry partitioning
 service12:
-  en: ...
-
-
-title_suppliers:
-  en: Suppliers
-suppliers:
-  en: We work with the following providers so that our customers enjoy the <strong>maximum quality of the materials</strong>
+  en: Painting and stucco
 ---
